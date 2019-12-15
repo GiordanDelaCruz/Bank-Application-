@@ -20,7 +20,7 @@ The requirements were;
       a particular online purchase fee, which is determined through the level of a customer's account. 
       E.g       
            __________|____Online Purchase Fee_____
-           Silver    |       $20.00
+           Silver    |     $20.00
            Gold      |     $10.00
            Platinum  |     $00.00
       
