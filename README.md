@@ -1,4 +1,4 @@
-# Bank-Application-
+# bank-account-application-
 This Bank Account Application utilizes JavaFX to create a simple, yet elegant user interface (UI). This application followed specific 
 requirements from a final project rubric. 
 
