@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="462.0" prefWidth="434.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CustomerController">
+   <children>
+   
+   	  <Text layoutX="57.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer">
+         <font>
+            <Font name="Century Gothic" size="46.0" />
+         </font>
+      </Text>
+      
+      <Button fx:id="logoutButton" layoutX="37.0" layoutY="380.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+      <Button fx:id="onlinePurchaseButton1" layoutX="210.0" layoutY="341.0" mnemonicParsing="false" onAction="#onlinePurchase1" text="Buy ( Price= $80.00)" />
+      <Button fx:id="onlinePurchaseButton2" layoutX="210.0" layoutY="392.0" mnemonicParsing="false" onAction="#onlinePurhcase2" text="Buy (Price = $40.00)" />
+      <TextField fx:id="depositTextField" layoutX="189.0" layoutY="123.0" />
+      <Button fx:id="depositButton" layoutX="43.0" layoutY="123.0" mnemonicParsing="false" onAction="#deposit" prefHeight="39.0" prefWidth="124.0" text="Deposit" />
+      <Button fx:id="withdrawButton" layoutX="44.0" layoutY="176.0" mnemonicParsing="false" onAction="#withdraw" prefHeight="39.0" prefWidth="124.0" text="Withdraw" />
+      <TextField fx:id="withdrawTextField" layoutX="189.0" layoutY="176.0" />
+      <Button fx:id="getBalanceButton" layoutX="44.0" layoutY="231.0" mnemonicParsing="false" onAction="#getBalance" prefHeight="39.0" prefWidth="124.0" text="Get Balance" />
+      <Text fx:id="getBalanceLabel" layoutX="189.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="224.0" /> 
+<!--       <Text fx:id="accountLevelTextDisplay" layoutX="48.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Level" /> __>
+      <Text fx:id="accountLevelText" layoutX="189.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="215.8046875" /> --> 
+
+   </children>
+</AnchorPane>
