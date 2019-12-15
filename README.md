@@ -3,6 +3,7 @@ This Bank Account Application utilizes JavaFX to create a simple, yet elegant us
 requirements from a final project rubric. 
 
 The requirements were:
+
     - There is a variety of 2 users who utilize this application; Customer and Manager. 
       There can be 0 or more customers who use the application, and there is only one manager.
     - A customer has a username, password, and role = customer, bank account and level. 
@@ -13,7 +14,8 @@ The requirements were:
       E.g       
            Silver   Ɛ [0, 10 000)
            Gold     Ɛ [10 000, 20 000)
-           Platinum Ɛ [20 000, +inf)     
+           Platinum Ɛ [20 000, +inf) 
+  
     - To purchase an online item, the price of the item must be greater than or equal to $50.00 dollars. 
       Additionally, there is a particular online purchase fee, which is determined through the level 
       of a customer's account. 
@@ -22,6 +24,7 @@ The requirements were:
            Silver    |     $20.00
            Gold      |     $10.00
            Platinum  |     $00.00    
+           
       - Only the manager has the authority to to add or delete a customer's back account. When the 
         manager adds a customer, they must create the account of the customer along with a intitial 
         balance of $100.00 dollars in the account. 
